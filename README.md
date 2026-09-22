@@ -355,6 +355,9 @@ A curated list of AI-powered coding tools: editors, agents, code completion, rev
 - **[rung](https://github.com/rung-dev/rung)** – Deterministic, AI-free CI gate that checks whether an AI coding agent ran the checks it claims: reads an evidence bundle from the real run and passes or blocks the build. Ships as a GitHub Action, CLI, and agent-agnostic skill.
 - **[squirrelscan](https://squirrelscan.com)** – CLI website audit tool built for coding agents (Claude Code, Cursor). Runs 260+ rules across SEO, performance, security, accessibility and agent experience, and hands the agent exact, source-mapped fixes. Free local audits, GitHub Action, MCP server.
 - **[TestMu AI (Formerly LambdaTest)](https://www.testmuai.com/)** – Full-stack AI agentic testing cloud. AI agents plan, author and run tests across 3,000+ browsers and 10,000+ real devices, with visual, accessibility and load testing in one platform. Free plan available.
+- **[KaneAI](https://www.testmuai.com/kane-ai/)** – GenAI-native testing agent that plans, authors and evolves end-to-end tests in natural language across web, mobile, API and database, then exports them to Selenium, Playwright, Cypress or Appium.
+- **[SmartUI](https://www.testmuai.com/visual-testing-tool/)** – AI-native visual testing that catches layout shifts, CSS regressions and rendering differences across browsers, cutting false positives by up to 95%.
+- **[TestMu AI (Formerly LambdaTest) Accessibility Testing](https://www.testmuai.com/accessibility-testing/)** – Automated WCAG A, AA and AAA, ADA and Section 508 checks across websites, native Android and iOS apps and PDFs, with a Chrome DevTools extension and CI integration.
 
 ---
 
@@ -577,6 +580,8 @@ A curated list of AI-powered coding tools: editors, agents, code completion, rev
 - **[DownForAI](https://downforai.com/)** – Real-time status monitoring for 800+ AI services including ChatGPT, Claude, Gemini, Midjourney, and Groq. Tracks uptime, latency, and community outage reports.
 - **[KubeStellar Console](https://github.com/kubestellar/console)** – Open-source multi-cluster Kubernetes dashboard with an MCP server (kc-agent) enabling AI coding agents to query and manage clusters via natural language.
 - **[token-optimizer](https://github.com/alexgreensh/token-optimizer)** – Context and token-cost optimizer for AI coding agents. Finds wasted "ghost tokens," survives compaction, and reduces context-quality decay, with native plugins for Claude Code, Codex, OpenCode, and OpenClaw.
+- **[HyperExecute](https://www.testmuai.com/hyperexecute/)** – AI-native test orchestration cloud that runs suites up to 70% faster with auto-split and matrix modes, job prioritisation and auto-healing, and plugs into any CI/CD pipeline through a lightweight CLI.
+- **[Browser Cloud](https://www.testmuai.com/browser-cloud/)** – Scalable browser infrastructure for AI agents. Real Chrome at scale with stealth mode, session persistence, geo proxies and full observability, working with Playwright, Puppeteer and Selenium.
 
 ---
 
@@ -648,7 +653,7 @@ A curated list of AI-powered coding tools: editors, agents, code completion, rev
 - **[Markovo](https://github.com/fisher-byte/markovo)** – Convert PDF, DOCX, PPTX, XLSX and authorized public pages (Google Docs, Notion, GitHub, Hacker News, YouTube) into clean, structured Markdown for agent context. Remote MCP endpoint with OAuth 2.1 (`https://markovo.net/mcp`) plus local stdio server sandboxed to a dedicated root; free tier included.
 - **[prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset)** – MCP server that generates production-ready visual assets (app icons, favicons, OG images, logos, wordmarks) by routing prompts across 30+ image generation models. Zero API key required for first run via free tiers. `npm install -g prompt-to-asset`.
 - **[Instafill.ai](https://instafill.ai)** – MCP server for AI-powered PDF form filling. Auto-completes any PDF form by extracting fields and filling them from saved profiles, uploaded files, or supplied data.
-- **[TestMu AI MCP Server](https://www.testmuai.com/mcp/)** – Remote MCP server that connects AI assistants to test data: run and debug HyperExecute jobs, triage automation failures, explain visual regressions, and run WCAG accessibility audits from the IDE. Streamable HTTP with OAuth 2.1.
+- **[TestMu AI (Formerly LambdaTest) MCP Server](https://www.testmuai.com/mcp/)** – Remote MCP server that connects AI assistants to test data: run and debug HyperExecute jobs, triage automation failures, explain visual regressions, and run WCAG accessibility audits from the IDE. Streamable HTTP with OAuth 2.1.
 
 ---
 
